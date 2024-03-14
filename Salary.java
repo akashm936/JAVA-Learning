@@ -12,7 +12,7 @@ class Salary
          double b = sc.nextDouble();
 
    		System.out.println("Enter the Score of Employee : ");
-   	    double s = sc.nextDouble();
+   	   double s = sc.nextDouble();
 
         if(s > 90)
         {

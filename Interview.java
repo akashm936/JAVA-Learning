@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 class Interview
 {
+  //this is program for check eligibility interview
    public static void main(String[] args) {
    	
    	Scanner sc = new Scanner(System.in);
