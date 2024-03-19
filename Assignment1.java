@@ -1,6 +1,12 @@
-public class Assignment1 {
+// 1 
+// 3 2
+// 6 5 4
+// 10 9 8 7 
+// 15 14 13 12 11
+
+class Assignment1 {
     public static void main(String[] args) {
-        int n = 5; // Change this value to adjust the number of rows in the triangle
+        int n = 5; 
 
         int num = 1;
         for (int i = 1; i <= n; i++) {
@@ -17,7 +23,7 @@ public class Assignment1 {
                 }
                 num += i;
             }
-            System.out.println();
+            System.out.println();  
         }
     }
 }
