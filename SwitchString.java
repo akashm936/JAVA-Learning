@@ -7,7 +7,7 @@ class SwitchString
 		//String levelString = "Expert";
 		
 		System.out.println("Enter Your Level Out Of(0-3) : ");
-		String level = sc.next();
+		String level = sc.next().;
 
 		switch(level)
 		{
