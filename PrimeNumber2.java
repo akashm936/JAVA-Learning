@@ -5,6 +5,8 @@ class PrimeNumber2
 
 	//this is a Program that Validate the user Input is
 	// Prime Number Or Not a Prime Number 
+
+	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
