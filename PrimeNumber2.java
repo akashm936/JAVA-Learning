@@ -6,7 +6,7 @@ class PrimeNumber2
 	//this is a Program that Validate the user Input is
 	// Prime Number Or Not a Prime Number 
 
-	
+
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -14,7 +14,7 @@ class PrimeNumber2
 		System.out.println("Enter a Number : ");
 		int num = sc.nextInt();
 
-		int count = 0;
+		int count = 0;// we can also use here boolean value
 
 		for (int i=2;i<num;i++) {
 			

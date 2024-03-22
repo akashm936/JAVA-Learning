@@ -13,8 +13,8 @@ class WhileProgram2
     int length = 0;
     while(num>0)
     {
-    	length++;
-    	num/=10;
+    	length++; //updating length
+    	num/=10;  //by removing 1 by by 1
     }
     System.out.println(length);
 
