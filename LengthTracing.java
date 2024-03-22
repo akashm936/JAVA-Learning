@@ -21,6 +21,6 @@ class LengthTracing
 			System.out.println("how update the length in for loop " + length);
 
 		}
-		System.out.println(length);
+		System.out.println("the length of number is : " + length);
 	}
 }
