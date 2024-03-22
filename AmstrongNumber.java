@@ -14,6 +14,7 @@ class AmstrongNumber
 		int length = 0;
 		int sum = 0;
 
+
 		while(num!=0)
 		{
 			length++;
@@ -34,10 +35,10 @@ class AmstrongNumber
 		}
 		if(sum == dup1)
 		{
-			System.out.println("this is AmstrongNumber.");
+			System.out.println("this is Amstrong Number.");
 		}
 		else{
-			System.out.println("this is not AmstrongNumber.");
+			System.out.println("this is not Amstrong Number.");
 		}
 	}
 }
