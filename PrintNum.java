@@ -7,9 +7,9 @@ class PrintNum
 		{
 			for(int j=1;j<=i;j++)
 			{
-				System.out.print(j +" ");
+				System.out.print(a +" ");
 			}
-			System.out.println(a+ " ");
+			System.out.println();
 		}
 	}
 }
