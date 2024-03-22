@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 class PrimeNumber
 {
+
+	//this is the Prime Number program in java 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

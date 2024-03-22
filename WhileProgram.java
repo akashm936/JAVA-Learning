@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class WhileProgram
 {
+	// this is the while loop and for loop Program
 
 	//program for calculating the power of the integer value
 	public static void main(String[] args) {

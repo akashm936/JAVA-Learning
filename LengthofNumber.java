@@ -1,6 +1,10 @@
 import java.util.Scanner;
 class LengthofNumber
 {
+	//this is the length Program 
+	
+	//in this program we calculating the length of the Number
+
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

@@ -1,6 +1,8 @@
 import java.util.Scanner;
 class AmstrongNumber
 {
+
+	//this is the amstrong value program 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
