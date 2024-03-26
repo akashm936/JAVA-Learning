@@ -1,6 +1,7 @@
 
 class SwapNumber
 {
+	//in this program we swap the Two Number
 	public static void main(String[] args) {
 		
 		float num1 = 64.5f;
