@@ -1,7 +1,7 @@
 import java.util.*;
 class FindSum
 {
-	// 
+	// Find sum program 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
