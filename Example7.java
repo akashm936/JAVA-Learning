@@ -2,6 +2,7 @@ import java.util.*;
 
 class Example7
 {
+	//this is a Buzz Number Program 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
