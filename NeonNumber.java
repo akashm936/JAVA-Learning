@@ -1,5 +1,6 @@
 class NeonNumber
 {
+	//this is the neon number program
 	public static void main(String[] args) {
 		int num = 1;
 		int sqr = num*num;
