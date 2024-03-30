@@ -1,5 +1,7 @@
 class Example9
 {
+
+	//while loop label program
 	public static void main(String[] args) {
 		whileloop:{
 			int i = 1;
