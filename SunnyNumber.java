@@ -9,12 +9,13 @@ class SunnyNumber
 	  int sum = num +1;
 	  int sqrrt=0;
 	  boolean flag=false;
+	  
 	  for(int i =1;i<=sum/2;i++)
 	  {
 	  	if(i*i==sum){
 				flag = true;
 				sqrrt = i;
-				break;
+				break ;
 			}
 		}
 		if(flag) {

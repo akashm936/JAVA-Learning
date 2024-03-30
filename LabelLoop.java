@@ -5,9 +5,10 @@ class LabelLoop
 		
         Updatelabel:{
 		int i=1;
-		
+		//Updatelabel:
 		while(i<=5)
 		{
+			
 			System.out.println("Hello Akash...!");
 			i++;
 			if(i==3)
