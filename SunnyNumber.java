@@ -1,25 +1,31 @@
 import java.util.*;
-
 class SunnyNumber
 {
-	// this is a Sunny Number Program
-	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner(System.in);
-        
-        System.out.println("Enter a Number : ");
-        int num = sc.nextInt();
-
-        double sqrrt , d;
-
-        sqrrt=Math.sqrt(num+1);
-        //d=sqrrt.Math.floor(sqrrt);
-        if(d==0.0)
-        {
-        	System.out.println(num + " is a Sunny Number");
-        }
-        else{
-        	System.out.println(num + " is Not a Sunny Number ");
-        }
+	public static void main(String[] args) 
+	{
+	  Scanner sc= new Scanner(System.in);
+	  System.out.print("Enter a Number : ");
+	  int num = sc.nextInt();
+	  int sum = num +1;
+	  int sqrrt=0;
+	  boolean flag=false;
+	  for(int i =1;i<=sum/2;i++)
+	  {
+	  	if(i*i==sum){
+				flag = true;
+				sqrrt = i;
+				break;
+			}
+		}
+		if(flag) {
+			System.out.println (num+" it is a sunny number");
+		}
+		else{
+              System.out.println(num+ " is not a sunny number");
+		}
 	}
 }
+
+
+
+	
