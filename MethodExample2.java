@@ -1,9 +1,11 @@
 class MethodExample2{
 	public static void main(String[] args) {
 		
+		System.out.println("Main Start");
 		suresh();
 		gopal();
 		mahesh();
+		System.out.println("Main Ends");
 	}
 
 	public static void suresh()
