@@ -8,6 +8,7 @@ class KrishnamurthyNumber
 	  Scanner sc = new Scanner(System.in);
 	  int n;
 	  System.out.print("Enter a Number : ");
+	  
 
 	  n = sc.nextInt();
 
