@@ -6,7 +6,7 @@ class Emirp
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("************ This program check Number is Emirp Or NOT ***************");
-		System.out.println("Enter a Number : ");
+		System.out.print("Enter a Number : ");
 		int num = sc.nextInt();
 		if(isPrime(num))
 		{
@@ -25,7 +25,7 @@ class Emirp
 		boolean flag = true;
 		for(int i=2;i<num;i++)
 		{
-			if(num%i==10){
+			if(num%i==0){
 				flag = false;
 				break;
 			}
