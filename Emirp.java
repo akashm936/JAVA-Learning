@@ -11,7 +11,7 @@ class Emirp
 		if(isPrime(num))
 		{
 			int rev = reverseNumber(num);
-			System.out.println(isPrime(rev)?"Emirp":"Not Emirp");
+			System.out.println(isPrime(rev)?num + " is Emirp Number":num + " is Not a Emirp Number");
 		}
 		else{
 			System.out.println("Not a Emirp");
