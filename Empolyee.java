@@ -6,6 +6,8 @@ class Empolyee
 	static int eid;
 	static String erole;
 	static double esal;
+	static String eskills;
+	static int experiance;
 
 	public static void main(String[] args) {
 	
@@ -17,10 +19,11 @@ class Empolyee
 	 for (; ; ) {
 	 		
 	 		System.out.println(" ***** FEATURE *****");
+	 		System.out.println();
 	 		System.out.println("1. Add New Employee ");
 	 		System.out.println("2. View Employee ");
 	 		System.out.println("3. Edit Employee ");
-	 		//System.out.println("4. view Edited Data of Employee");
+	 		//System.out.println("4. ");
 	 		System.out.println("4. Exit ");
 	 		System.out.println();
 	 		System.out.println("Enter an Option");
@@ -62,6 +65,7 @@ class Empolyee
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println(" **** Enter a New Employee Data *****");
+		System.out.println();
 		System.out.print("Employee Name : ");
 		ename = sc.nextLine();
 		System.out.print("Employee id : ");
@@ -69,8 +73,14 @@ class Empolyee
 		Scanner s = new Scanner(System.in);
 		System.out.print("Employee Role : ");
 		erole = s.nextLine();
-		System.out.println("Employee salary : ");
+		System.out.print("Employee salary : ");
 		esal = s.nextDouble();
+		Scanner ss = new Scanner(System.in);
+		System.out.print("Enter a skills : ");
+		eskills = ss.nextLine();
+		System.out.print("Employee Experiance : ");
+		experiance = sc.nextInt();
+		System.out.println();
 
 	}
 	public static void viewEmployee(int eid1)
@@ -78,10 +88,13 @@ class Empolyee
 		if(eid==eid1)
 		{
 			System.out.println("********  Employee Data *********");
+			System.out.println();
 			System.out.println("Name : "+ ename);
 			System.out.println("Emp Id : " + eid);
 			System.out.println("Role :" + erole);
 			System.out.println("salary : " + esal);
+			System.out.println("Employee skills : " + eskills);
+			System.out.println("Year Of Experiance : "+ experiance);
 			System.out.println();
 		}
 		else{
