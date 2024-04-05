@@ -20,8 +20,8 @@ class Empolyee
 	 		System.out.println("1. Add New Employee ");
 	 		System.out.println("2. View Employee ");
 	 		System.out.println("3. Edit Employee ");
-	 		System.out.println("4. view Edited Data of Employee");
-	 		System.out.println("5. Exit ");
+	 		//System.out.println("4. view Edited Data of Employee");
+	 		System.out.println("4. Exit ");
 	 		System.out.println();
 	 		System.out.println("Enter an Option");
 	 		int opt = sc.nextInt();
@@ -32,9 +32,9 @@ class Empolyee
 	 			break;
 	 		}
 	 		case 2 : {
-	 			System.out.println("Enter a Employee id : ");
-	 			int eid1 = sc.nextInt();
-	 			viewEmployee(eid1);
+	 			// System.out.println("Enter a Employee id : ");
+	 			// int eid1 = sc.nextInt();
+	 			viewEmployee(eid);
 	 			break;
 	 		}
 	 		case 3 : {
@@ -44,10 +44,10 @@ class Empolyee
 	 			editEmployeeData();
 	 			break;
 	 		}
-	 	    case 4: {
-	 	    	editEmployeeData();
-	 	    }
-	 		case 5 : {
+	 	    // case 4: {
+	 	    // 	editEmployeeData();
+	 	    // }
+	 		case 4 : {
 	 			System.exit(0);
 	 			break;
 	 		}
@@ -77,7 +77,7 @@ class Empolyee
 	{
 		if(eid==eid1)
 		{
-			System.out.println("Employee Data ");
+			System.out.println("********  Employee Data *********");
 			System.out.println("Name : "+ ename);
 			System.out.println("Emp Id : " + eid);
 			System.out.println("Role :" + erole);
@@ -97,23 +97,44 @@ class Empolyee
          switch(option)
          {
             case 1 : {
-            	System.out.println("Enter Employee new Name : ");
-            	String newname = sc.nextLine();
-            	ename = newname;
+            	editName();
+            	break;
             }
             case 2 : {
-            	System.out.println("Enter Employee new Role : ");
-            	String newRole = sc.nextLine();
-            	erole = newRole;
+            	editRole();
+            	break;
             }
             case 3 : {
-            	System.out.println("Enter new Salary of Empolyee : ");
-            	double newSal = sc.nextDouble();
-            	esal = newSal;
+               editSal();
+               break;
+            	
             }
             default : {
             	System.out.println("Invalid Attribute of Employee ");
             }
          }
+	}
+	public static void editName(){
+
+		   Scanner sc = new Scanner(System.in);
+
+			System.out.println("Enter Employee new Name : ");
+         String newname = sc.nextLine();
+         ename = newname;
+
+	}
+	public static void editRole(){
+
+		   Scanner sc = new Scanner(System.in);
+		   System.out.println("Enter Employee new Role : ");
+         String newRole = sc.nextLine();
+         erole = newRole;
+	}
+	public static void editSal(){
+
+		   Scanner sc = new Scanner(System.in);
+		   System.out.println("Enter new Salary of Empolyee : ");
+         double newSal = sc.nextDouble();
+         esal = newSal;
 	}
 }
