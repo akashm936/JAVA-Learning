@@ -55,7 +55,9 @@ class Empolyee
 	 			break;
 	 		}
 	 	default :{
+	 		System.out.println();
 	 		System.out.println("Invalid input ..!!!!!");
+	 		System.out.println();
 	 		}
 	 	}
 	 	}	
