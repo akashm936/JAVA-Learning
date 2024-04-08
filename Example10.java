@@ -2,7 +2,7 @@ import java.util.*;
 
 class Example10
 {
-	//this program is check the number is even or odd using the method
+	//this program is check the number is even or odd using thse method
 	public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
        System.out.println("This program is check the Number is Even Or Odd");

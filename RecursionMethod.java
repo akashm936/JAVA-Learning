@@ -1,6 +1,6 @@
 class RecursionMethod
 {
-	static int number = 1;
+	static int number = 1-;
 	public static void main(String[] args) {
 		
 		printNumber();
