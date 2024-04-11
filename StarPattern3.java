@@ -6,7 +6,7 @@ class StarPattern3
 		{
 			for(int j=5;j>=i;j--)
 			{
-				System.out.print("  ");
+				System.out.print("");
 			}
 			for(int j=1;j<=i-1;j++)
 			{
@@ -18,3 +18,10 @@ class StarPattern3
 		}
 	}
 }
+
+
+// * 
+// * * 
+// * * *
+// * * * *
+// * * * * *
