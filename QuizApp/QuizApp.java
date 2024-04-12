@@ -7,18 +7,19 @@ class QuizApp
 	static int marks;
 	static int count = 0; 
 	static int passMarks = 0;
+	static String name = "Akash";
 	public static void main(String[] args) {
 
 	Scanner sc = new Scanner(System.in);		
 
-		System.out.println("This is Quiz App For test You knowledge ");
+		    System.out.println("This is Quiz App For test You knowledge ");
 
         System.out.println();
         System.out.println("*********************************************************************");
-		System.out.println();
-		System.out.println("Which Subject Quiz you Want to Give ?");
-		System.out.println("1. Java \n2. SQL \n3.I am Not Prepare(Exit)");
-		int BatchName = sc.nextInt();
+	    	System.out.println();
+		    System.out.println("Which Subject Quiz you Want to Give ?");
+		    System.out.println("1. Java \n2. SQL \n3.I am Not Prepare(Exit)");
+		    int BatchName = sc.nextInt();
 		
 
 		switch(BatchName)
@@ -61,7 +62,18 @@ class QuizApp
 // ***************************  this method for sql Quiz Question
 	public static void sqlQuestion()
 	{
-		Scanner sql = new Scanner(System.in);
+	  	
+	  	Scanner sql = new Scanner(System.in);
+      // String name = "Akash";
+
+	  	System.out.println("Enter Your Name : ");
+	  	name = sql.nextLine();
+
+	  	if(name.equals("Akash"))
+	  	{
+	  	  System.out.println(name + " All the Best For Test ");
+	  	}
+
 	}
 
 	// ******************************* this method is for getting user name 
@@ -72,7 +84,7 @@ class QuizApp
 	public static void javaQuestion()
 	{
 		Scanner sq = new Scanner(System.in);
-		String name = "Akash";
+		// String name = "Akash";
 		int answerQ1 = 1;
 		int answerQ2 = 1;
 		int answerQ3 = 1;
