@@ -65,6 +65,16 @@ class QuizApp
 	  	
 	  	Scanner sql = new Scanner(System.in);
       // String name = "Akash";
+      int sqlAnswer1 = 1;
+      int sqlAnswer2 = 1;
+      int sqlAnswer3 = 3;
+      int sqlAnswer4 = 4;
+      int sqlAnswer5 = 5;
+      int sqlAnswer6 = 6;
+      int sqlAnswer7 = 7;
+      int sqlAnswer8 = 8;
+      int sqlAnswer9 = 9;
+      int sqlAnswer10 = 10;
 
 	  	System.out.println("Enter Your Name : ");
 	  	name = sql.nextLine();
@@ -72,6 +82,41 @@ class QuizApp
 	  	if(name.equals("Akash"))
 	  	{
 	  	  System.out.println(name + " All the Best For Test ");
+                  
+                  System.out.println("************************************************************");
+                  System.out.println();
+                  System.out.println("Q1. What is Full Form of SQL ");
+                  System.out.println();
+                  System.out.println("1. Stracture Query language \n2. Stracture Quality language \n3. Storage Query language \n4. I Don't Know");
+                  
+                  int userAnswersql1 = sql.nextInt();
+
+                  if (sqlAnswer1==userAnswersql1) {
+                  	
+                  	System.out.println();
+                  	System.out.println("Q1 Answer is Submited in sql");
+
+
+  //******************************************************************************
+          // SQL Question
+                  	System.out.println("Q2. What is Data ?");
+                  	System.out.println();
+                  	System.out.println("1. Data is a Rawfact \n2. Data is a Information. \n3. Data is Mobile Data \n4. I Don't know");
+
+                    int userAnswersql2 =sql.nextInt();
+
+                  	if (sqlAnswer2==userAnswersql2) {
+
+                  		System.out.println();
+                  		System.out.println("Q2 Answer is Submited in sql");
+                  		
+                  	}
+                  }
+                  else{
+                  	System.out.println();
+                  	System.out.println("Wrong Answer in sql");
+                  
+                  }
 
 	  	}
 	  	else{
