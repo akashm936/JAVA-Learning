@@ -8,6 +8,7 @@ class QuizApp
 	static int count = 0; 
 	static int passMarks = 0;
 	static String name = "Akash";
+	// static String userAnswer ;
 	public static void main(String[] args) {
 
 	Scanner sc = new Scanner(System.in);		
@@ -67,19 +68,19 @@ class QuizApp
       // String name = "Akash";
       int sqlAnswer1 = 1;
       int sqlAnswer2 = 1;
-      int sqlAnswer3 = 3;
-      int sqlAnswer4 = 4;
-      int sqlAnswer5 = 5;
-      int sqlAnswer6 = 6;
-      int sqlAnswer7 = 7;
-      int sqlAnswer8 = 8;
-      int sqlAnswer9 = 9;
-      int sqlAnswer10 = 10;
+      int sqlAnswer3 = 2;
+      int sqlAnswer4 = 3;
+      int sqlAnswer5 = 4;
+      int sqlAnswer6 = 3;
+      int sqlAnswer7 = 2;
+      int sqlAnswer8 = 4;
+      int sqlAnswer9 = 2;
+      int sqlAnswer10 = 1;
 
 	  	System.out.println("Enter Your Name : ");
-	  	name = sql.nextLine();
+	  	String username = sql.nextLine();
 
-	  	if(name.equals("Akash"))
+	  	if(name.equals(username))
 	  	{
 	  	  System.out.println(name + " All the Best For Test ");
                   
@@ -98,7 +99,7 @@ class QuizApp
 
 
   //******************************************************************************
-          // SQL Question
+          // SQL Question 2
                   	System.out.println("Q2. What is Data ?");
                   	System.out.println();
                   	System.out.println("1. Data is a Rawfact \n2. Data is a Information. \n3. Data is Mobile Data \n4. I Don't know");
@@ -109,6 +110,120 @@ class QuizApp
 
                   		System.out.println();
                   		System.out.println("Q2 Answer is Submited in sql");
+                  
+
+   //******************************************************************************
+          // SQL Question 3
+                  	System.out.println("Q3. What is Full Form of RDMS?");
+                  	System.out.println();
+                  	System.out.println("1. Relation Destroyed Management System \n2. Relational Database Management System \n3. Readable Data Management System \n4. I Don't know");
+
+                    int userAnswersql3 =sql.nextInt();
+
+                  	if (sqlAnswer3==userAnswersql3) {
+
+                  		System.out.println();
+                  		System.out.println("Q3 Answer is Submited in sql");
+                  		
+                  		
+                //******************************************************************************
+                    // SQL Question 4
+                  	System.out.println("Q4. What is MetaData?");
+                  	System.out.println();
+                  	System.out.println("1. Management of Data \n2. Modification of Data \n3. Data About Data \n4. I Don't know");
+
+                    int userAnswersql4 =sql.nextInt();
+
+                  	if (sqlAnswer4==userAnswersql4) {
+
+                  		System.out.println();
+                  		System.out.println("Q4 Answer is Submited in sql");
+                  		
+
+                //******************************************************************************
+                    // SQL Question 5
+                  	System.out.println("Q5. In which year E F Codd rule Developed? ");
+                  	System.out.println();
+                  	System.out.println("1. 1995 \n2. 1991 \n3. 1956 \n4. 1970");
+
+                    int userAnswersql5 =sql.nextInt();
+
+                  	if (sqlAnswer5==userAnswersql5) {
+
+                  		System.out.println();
+                  		System.out.println("Q5 Answer is Submited in sql");
+                  		
+                  		
+                //******************************************************************************
+                    // SQL Question 6
+                  	System.out.println("Q6. What is Length of Varchar2 in SQL? ");
+                  	System.out.println();
+                  	System.out.println("1. 1000 \n2. 2000 \n3. 4000 \n4. 1500");
+
+                    int userAnswersql6 =sql.nextInt();
+
+                  	if (sqlAnswer6==userAnswersql6) {
+
+                  		System.out.println();
+                  		System.out.println("Q6 Answer is Submited in sql");
+                  		
+
+              //******************************************************************************
+                    // SQL Question 7
+                  	System.out.println("Q7. What is Value of Null ");
+                  	System.out.println();
+                  	System.out.println("1. 1 bit \n2. Empty \n3. 1 Byte \n4. 0 ");
+
+                    int userAnswersql7 =sql.nextInt();
+
+                  	if (sqlAnswer7==userAnswersql7) {
+
+                  		System.out.println();
+                  		System.out.println("Q7 Answer is Submited in sql");
+                  		
+                  		
+          //******************************************************************************
+                    // SQL Question 8
+                  	System.out.println("Q8. What is Full Form of DCL command in sql ");
+                  	System.out.println();
+                  	System.out.println("1. Database Control language \n2. Database creation language \n3. 1 Data creation language  \n4. Data Control Language ");
+
+                    int userAnswersql8 =sql.nextInt();
+
+                  	if (sqlAnswer8==userAnswersql8) {
+
+                  		System.out.println();
+                  		System.out.println("Q8 Answer is Submited in sql");
+                  		
+                  		
+            //******************************************************************************
+                    // SQL Question 9
+                  	System.out.println("Q9. Commit, RollBack and SavePoint are Command of ");
+                  	System.out.println();
+                  	System.out.println("1. DDL \n2. DCL \n3. 1 TCL  \n4. DQL ");
+
+                    int userAnswersql9 =sql.nextInt();
+
+                  	if (sqlAnswer9==userAnswersql9) {
+
+                  		System.out.println();
+                  		System.out.println("Q9 Answer is Submited in sql");
+                  		
+              
+              //******************************************************************************
+                    // SQL Question 10
+                  	System.out.println("Q10. folling are DCL Command ");
+                  	System.out.println();
+                  	System.out.println("1. Grant,Revoke \n2. Create,Update \n3. Insert,Truncate   \n4. Select,Join ");
+
+                    int userAnswersql10 =sql.nextInt();
+
+                  	if (sqlAnswer10==userAnswersql10) {
+
+                  		System.out.println();
+                  		System.out.println("Q10 Answer is Submited in sql");
+                  		count++;
+                  		
                   		
                   	}
                   }
@@ -127,10 +242,9 @@ class QuizApp
 
 	// ******************************* this method is for getting user name 
 	// public static void userName()
-
 	//this method for java Quiz Question
 
-	public static void javaQuestion()
+public static void javaQuestion()
 	{
 		Scanner sq = new Scanner(System.in);
 		// String name = "Akash";
@@ -150,9 +264,9 @@ class QuizApp
 		{
 
 			System.out.println("What is Your name ");
-			String userAnswer =  sq.nextLine();
+		  String username =  sq.nextLine();
 
-			if(name.equals(userAnswer)){
+			if(name.equals(username)){
 				
 				System.out.println();
 				System.out.println( name + " All The Best For Test  ");
