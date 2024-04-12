@@ -35,7 +35,7 @@ class QuizApp
 	    case 2:{
 	    	System.out.println("****************  Welcome SQL Quiz ********************");
 	    	System.out.println();
-	    	javaQuiz();
+	    	sqlQuestion();
 	    	break;
 	    	//sql batch
 	    } 
@@ -72,6 +72,10 @@ class QuizApp
 	  	if(name.equals("Akash"))
 	  	{
 	  	  System.out.println(name + " All the Best For Test ");
+
+	  	}
+	  	else{
+	  		System.out.println("Wrong User Name Please Enter Correct User Name");
 	  	}
 
 	}
@@ -111,15 +115,15 @@ class QuizApp
                        //question 1
 
                 System.out.println();
-				System.out.println("Q1.  What is Java?");
-		        System.out.println("1. Java is Programming language \n2. Java is a Coffee \n3. Java is Bike \n4 I Don't Know");
+				        System.out.println("Q1.  What is Java?");
+		            System.out.println("1. Java is Programming language \n2. Java is a Coffee \n3. Java is Bike \n4 I Don't Know");
                 int q1 = sq.nextInt();
 
                 if(q1==answerQ1)
                 {
                 System.out.println();
-        	    System.out.println("  Q1 Answer Submited ");
-        	    count++;
+        	      System.out.println("  Q1 Answer Submited ");
+        	      count++;
                 }
                 else{
         	    System.out.println("Sorry! Wrong Answer");
