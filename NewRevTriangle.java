@@ -18,5 +18,4 @@ class NewRevTriangle
 			System.out.println();
 		}
 	}
-	
 }
