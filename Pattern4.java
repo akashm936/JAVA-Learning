@@ -3,16 +3,11 @@ class Pattern4
 
 	//this program print | and * pattern
 	public static void main(String[] args) {
-		
-		for (int i=5;i>=1;i--) {
-			
-			for(int j =i-1;j>=1;j--)
-				System.out.print(" | ");
-
-			for(int j=5;j>=i;j--)
-				System.out.print("* ");
-
-			System.out.println();
-		}
-	}
+	
+	System.out.println("Hello World");	
+	//
+		//this program is Remaining 
+		//for writing for loop
+		//to create a pattern
+  }
 }
