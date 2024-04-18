@@ -1,11 +1,11 @@
-import java.util.*;
+// import java.util.*;
 class ObjectExample
 {
 
     //String char;
 	public static void main(String[] args) {
 		
-		Scanner ch = new Scanner(System.in);
+		// Scanner ch = new Scanner(System.in);
 		String str = "hello";
 		String str1 = " ";
 		for (int i=0;i<str.length();i++ ) {
@@ -15,6 +15,7 @@ class ObjectExample
 						str1 =str1+'a';
 				}
 			     else {
+			     	
 				str1 =str1+(++ch);
 
 			}
