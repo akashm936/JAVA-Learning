@@ -16,9 +16,10 @@ class BankApp
 
     	Scanner sc = new Scanner(System.in);
         
-    	System.out.println("This is Simple bank Application");
+    	System.out.println("**********   This is Simple bank Application ***************");
+    	System.out.println();
 
-    	System.out.println("Select Option \n1. Create New Account. \n2. Existing Account.");
+    	System.out.println("************  Select Option  ************  \n1. Create New Account. \n2. Existing Account. \n3. Log Out (exit)");
         
         int option = sc.nextInt();
 
@@ -31,6 +32,10 @@ class BankApp
         case 2: {
         	existingAccount();
         	break;
+        }
+        case 3:{
+        	System.out.println("Log out From Bank");
+        	System.exit(0);
         }
         default:{
         	System.out.println("Invalid Input from option");
