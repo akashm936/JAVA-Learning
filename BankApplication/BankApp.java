@@ -35,16 +35,26 @@ class BankApp
         default:{
         	System.out.println("Invalid Input from option");
         }
-        s}
+        }
 
     } 
 
-    public static void createAccount(){
+    public static void createAccount() 
+    {
 
-    	System.out.println("");
+    	System.out.println("********** Create New Customer Account ****************");
+    }
+    public void existingAccount()
+    {
+
     }
 
-    public void getaccountHolderName
+    public void getaccountHolderName()
+    {
+
+    }
+
+    
 }
 
 
