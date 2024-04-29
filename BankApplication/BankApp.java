@@ -2,12 +2,13 @@ import java.util.*;
 
 class BankApp
 {
-	private String accountHolderName;
-	private String address;
-	private long aadharNumber;
-	private String panNumber;
-	private double balance;
-	private long phoneNumber;  
+	private static String accountHolderName;
+	private static String address;
+	private static long aadharNumber;
+	private static String panNumber;
+	private static int upiPin;
+	private static double balance;
+	private static long phoneNumber;  
     
 
     public static void main(String args [])
@@ -46,8 +47,30 @@ class BankApp
 
     public static void createAccount() 
     {
+    	Scanner sc = new Scanner(System.in);
 
     	System.out.println("********** Create New Customer Account ****************");
+    	// this.accountHolderName=accountHolderName;
+    	// this.address=address;
+    	// this.aadharNumber=aadharNumber;
+    	// this.panNumber=panNumber;
+    	// this.upiPin=upiPin;
+
+    	System.out.print("Enter Your Name : ");
+    	accountHolderName=sc.nextLine();
+    	System.out.print("Enter Your Address : ");
+    	address=sc.nextLine();
+    	System.out.print("Enter Your Aadhar Number : ");
+    	aadharNumber=sc.nextLong();
+    	System.out.print("Enter Your Pan Number : ");
+    	panNumber=sc.nextLine();
+        System.out.print("Enter Your upiPin : ");
+        upiPin=sc.nextInt();
+        System.out.print("Enter a deposit amount : ");
+        balance=sc.nextDouble();
+        System.out.println("Enter Your Phone Number : ");
+        phoneNumber=sc.nextLong();
+
     }
     public static void existingAccount()
     {
