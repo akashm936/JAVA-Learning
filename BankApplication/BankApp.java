@@ -74,12 +74,21 @@ class BankApp
     }
     public static void existingAccount()
     {
+    	Scanner sc=new Scanner(System.in);
+
+        System.out.println("**********  Select the Option  ***********");
+
+        System.out.println("update Account Holder Name : ");
+        System.out.println("update Address of Customer : ");
+        System.out.println("update UPI Pin :");
+        System.out.println("update balance : ");
+        System.out.println("update Phone Number : ");
 
     }
 
     public static void getaccountHolderName()
     {
-
+        
     }
 
     
