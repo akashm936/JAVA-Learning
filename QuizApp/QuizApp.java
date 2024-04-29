@@ -58,7 +58,8 @@ class QuizApp
 		System.out.println("**************   Rules Of Quiz    *****************");
 		System.out.println("1. There is 10 Question. \n2. Every Question have 1 Mark. \n3. Every Question have 4 Option. \n All Question Are Mandatory");
 	    System.out.println();
-	    javaQuestion();
+	    // javaQuestion();
+        javaQuestion();
 	}
 // ***************************  this method for sql Quiz Question
 	public static void sqlQuestion()
@@ -244,7 +245,7 @@ class QuizApp
 	// public static void userName()
 	//this method for java Quiz Question
 
-public static void javaQuestion()
+     public static void javaQuestion()
 	{
 		Scanner sq = new Scanner(System.in);
 		// String name = "Akash";
@@ -253,11 +254,11 @@ public static void javaQuestion()
 		int answerQ3 = 1;
 		int answerQ4 = 4;
 		int answerQ5 = 1;
-    int answerQ6 = 2;
-    int answerQ7 = 1;
-    int answerQ8 = 2;
-    int answerQ9 = 3;
-    int answerQ10 = 4;
+        int answerQ6 = 2;
+        int answerQ7 = 1;
+        int answerQ8 = 2;
+        int answerQ9 = 3;
+        int answerQ10 = 4;
 
 		QuestionLoop:
 		for(int i=1;i<=10;i++)
@@ -462,9 +463,9 @@ public static void javaQuestion()
 
 		}
 
-    System.out.println(" ***********  Thank You " + name + "For Given Test ************ ");
-    System.out.println();
-		System.out.println(name + " Your marks is " + (count+"/10"));
+         System.out.println(" ***********  Thank You " + name + "For Given Test ************ ");
+         System.out.println();
+		 System.out.println(name + " Your marks is " + (count+"/10"));
 
 
 	}
