@@ -20,7 +20,23 @@ class BankApp
 
     	System.out.println("Select Option \n1. Create New Account. \n2. Existing Account.");
         
-        
+        int option = sc.nextInt();
+
+        switch(option){
+        case 1: {
+
+        	createAccount();
+        	break;
+        }
+        case 2: {
+        	existingAccount();
+        	break;
+        }
+        default:{
+        	System.out.println("Invalid Input from option");
+        }
+        s}
+
     } 
 
     public static void createAccount(){
