@@ -44,12 +44,12 @@ class BankApp
 
     	System.out.println("********** Create New Customer Account ****************");
     }
-    public void existingAccount()
+    public static void existingAccount()
     {
 
     }
 
-    public void getaccountHolderName()
+    public static void getaccountHolderName()
     {
 
     }
